@@ -29,8 +29,8 @@
 
 /* Row 5 */
 .nested {
-  height: 140px;
-  margin: 5px;
+  height: 100%;
+  margin: 3px;
   background-color: #c23a45;
   border: 1px solid white;
   text-align: center;
