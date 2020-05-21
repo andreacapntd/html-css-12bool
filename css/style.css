@@ -1,0 +1,26 @@
+/* General rules */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  line-height: 150px;
+}
+
+/* Debug */
+
+[class*="col-"] {
+  height: 150px;
+  background-color: pink;
+  border: 1px solid black;
+}
+
+/* First row */
+
+.title-first-row {
+  text-align: center;
+}
