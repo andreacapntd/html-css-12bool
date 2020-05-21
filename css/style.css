@@ -7,6 +7,9 @@
 }
 
 .title {
+  height: 150px;
+  /* background-color: pink; */
+  border: 1px solid black;
   text-align: center;
   line-height: 150px;
 }
@@ -14,13 +17,28 @@
 /* Debug */
 
 [class*="col-"] {
+
+  background-color: pink;
+
+}
+
+/* Row 1 */
+.title-first-row {
   height: 150px;
   background-color: pink;
+  text-align: center;
   border: 1px solid black;
 }
 
-/* First row */
-
-.title-first-row {
+/* Row 5 */
+.nested {
+  height: 140px;
+  margin: 5px;
+  background-color: #c23a45;
+  border: 1px solid white;
   text-align: center;
+  line-height: 140px;
+}
+
+
 }
